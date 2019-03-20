@@ -35,7 +35,7 @@ Throughout the following research, mass (S) of the moon will be being increased 
 * initial distance between S and O: r_o (10^3 km)
 * distance between S and O: d[^1]  (10^3 km) 
 
-[^1] This variable has distinct symbols in different situations: Original – r, Binary – d, Final - r
+[^1]:This variable has distinct symbols in different situations: Original – r, Binary – d, Final - r
 
 * distance from S to the mass center: r (semi-major axis) (10^3 km)
 * distance from O to the mass center: R (10^3 km)
@@ -115,5 +115,22 @@ To clearly identify the externalities of expanding satellite’s mass within the
 28. Plot the graph, where on y-axis is F1, while on axes is v_o, for all observed systems: Orbital velocity of O
 29. Plot the graph, where on y-axis is F1, while on axes is R, for all observed systems: Distance from O to the mass center
 
-Hypothesis
+### Hypothesis
+
 Each of the aforementioned graphs will have distinct values in different systems, but will show the identical behavior. Moreover, assuming that the Et is always constant, the collision will not take place, and the system will exit binary situation.
+
+### Initial Data
+System                | m_o, kg×10^22 | m_s, kg×1022 | r_o, 103 km | v_s, 103 km/s | ρ, 1013 kg/km3 | rs, 103 km 
+:-------------------- |:------------:|:-----------:|:----------:|:------------:|:--------------:|------------:
+Moon and Earth	      |  597	     |  7,35	   |  384,4	| 0,00102      | 0,000003346	| 6,371
+Mars and Phobos       |	62,4	     |  0,00000107 |   9,4	| 0,00214      | 0,000001876	| 3,389
+Jupiter and Callisto  |	189820	     |  10,759	   |  1882,7	| 0,00821      | 0,000001834	| 69,911
+Jupiter and Europa    |	189820	     |  4,799	   |  670,9	| 0,01374      | 0,000003013	| 69,911
+Saturn and Titan      | 56834	     |  13,452	   |  1221,87	| 0,00557      | 0,000001879	| 58,232
+Saturn and Tethys     |	56834	     |  0,06174	   |  294,619	| 0,01135      | 0,000000984	| 58,232
+Uranus and Oberon     |	8681	     |  0,3014	   |  583,52	| 0,00315      | 0,00000163	| 25,362
+Uranus and Ariel      |	8681	     |  0,1353	   |  191,02	| 0,00551      | 0,00000159	| 25,362
+Neptune and Triton    |	10241,3	     |  2,14	   |  354,759	| 0,00439      | 0,00000206	| 24,622
+Pluto and Charon      |	1,303	     |  0,1586	   |  19,591	| 0,00021      | 0,000001702	| 1,187
+						
+
