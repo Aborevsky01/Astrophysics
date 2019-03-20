@@ -35,7 +35,11 @@ Throughout the following research, mass (S) of the moon will be being increased 
 * initial distance between S and O: r_o (10^3 km)
 * distance between S and O: d[^1]  (10^3 km) 
 
-[^1]:This variable has distinct symbols in different situations: Original – r, Binary – d, Final - r
+[^1]: Все сноски отображаются в конце страницы
+
+
+This variable has distinct symbols in different situations: Original – r, Binary – d, Final - r
+
 
 * distance from S to the mass center: r (semi-major axis) (10^3 km)
 * distance from O to the mass center: R (10^3 km)
