@@ -10,9 +10,7 @@
 # Externalities of Satellite’s mass expansion
 
 
-Research Question:
-
-**To what extent the consequences of a satellite’s mass increase can be similar for different systems of planets and their moons?**
+Research Question: **To what extent the consequences of a satellite’s mass increase can be similar for different systems of planets and their moons?**
 
 *May 2019*
 
@@ -43,7 +41,7 @@ Throughout the following research, mass (S) of the moon will be being increased 
 * ms/mo: F1 
 * msmax/ mo: F2 
 
-### 3. 5 situations explored (in order of appearance): 
+### 3. Five situations explored (in order of appearance): 
 
 * Original— initial conditions, all required data is taken from open sources. Further calculations are based on the formulas of conserved total energy within the system and of first cosmic velocity.
 
