@@ -84,35 +84,35 @@ To clearly identify the externalities of expanding satellite’s mass within the
 1. Create a code in Python, which uses all the necessary data to hold indispensable mathematical operations, based on the formulas from Physics (all further steps are held within the created code).
 2. Generate a file with the initial values of required variables for the program.
 3. Calculate the values of necessary constants according to the proposed measuring system (e.g, G = 0.000000667).
-4. Calculate *m_s/ m_o = F0*.
-5. From the data gathered, determine the Et (total energy within the system, constant): *E_t= (m_s*(v_s^2)/2)– G*m_s*m_o/r_o*.
-6. Identify the initial value of ms with the system’s constant: t_m_pms.
+4. Calculate m_s/ m_o = F0.
+5. From the data gathered, determine the Et (total energy within the system, constant): E_t= (m_s×v_s^2)/2)– G×m_s×m_o/r_o.
+6. Identify the initial value of ms with the system’s constant: tmp_ms.
 7. Identify the initial value of r with the system’s constant: r_o.
 8. Identify the initial value of F1 with the system’s constant: F0.
-9. Count the initial step: *step =(m_o-m_s)/100000*.
-10. While rs  >  R – proposed condition – (*R = m_s*r/(m_o+m_s )*), the system operates in the Original situation. Continue adding steps and counting new values of vs  (*v_s= √((G*m_o/r)*),  r  (*r=((2*G*m_s*m_o)/(m_s*v_s 2 – 2*E_t ))*),  R , F1, until the proposed condition is true. 
-11. If rs > r, then *F2 = m_smax/m_o*, m_smax = m_s (value of m_s, when the previous condition became true). Program is stopped because the collision occurred.
+9. Count the initial step: step =(m_o-m_s)/100000.
+10. While rs  >  R – proposed condition – (R = m_s×r/(m_o+m_s )), the system operates in the Original situation. Continue adding steps and counting new values of vs  (v_s= √((G×m_o/r)),  r  (r=((2×G×m_s×m_o)/(m_s×v_s 2 – 2×E_t ))),  R , F1, until the proposed condition is true. 
+11. If rs > r, then F2 = m_smax/m_o, m_smax = m_s (value of m_s, when the previous condition became true). Program is stopped because the collision occurred.
 12. When R obtains a greater value than rs, the Binary1 has to be introduced
-13. New value for step: *step = (m_o-tmp_(〖ms〗_ ))/1000*
-14. While F1 ≤ 1 – proposed condition – continue adding steps and simultaneously finding out and recording changes of r (*r = m_o*d/(m_o+ m_s )*), d (*d = ∣-0.5*G*m_s*m_o/E_t ∣ *), v_s (*v_s= √((G*((m_o^2 ))/((d * (m_s+ m_o )) )) ) *), F1, v_o (* v_o=√((G*((m_s^2 ))/((d * (m_s+ m_o*)) )) *) , , R (R=(m_s* d )/((m_o+ m_s ) )*),.
-15. When the condition becomes false, the Binary2 is exited. At the final point, where F1 = 1, calculate vx  (v_x= √((G*((m_o^2))/((d * 2 * m_o ) )) )), rx (r_x=d/2)
-16. Introduce the third system - Binary2, where the new value of step is: step =(m_o-tmp_(〖ms〗_ ))/100
-17. While r^3> (3*m_s/((4*π*p) ))and F1 < 50 – proposed condition – record changes of dependent variables:        r (r = m_o*d/((m_o+ m_s ) )), d (d = ∣-0.5*G*m_s*m_o/E_t ∣ ), vs (v_s= √((G*((m_o^2 ))/((d * (m_s+ m_o )) )) ) ), F1, vo ( v_o=√((G*((m_s^2 ))/((d * (m_s+ m_o )) )) ), R (R=(m_s* d )/((m_o+ m_s ) )), while making every step
+13. New value for step: step = (m_o-tmp_ms_ ))/1000
+14. While F1 ≤ 1 – proposed condition – continue adding steps and simultaneously finding out and recording changes of r (r = m_o×d/(m_o+ m_s )), d (d = ∣-0.5×G×m_s×m_o/E_t ∣ ), v_s (v_s= √((G×m_o^2 ))/((d×(m_s+ m_o )) )) ) ), F1, v_o (v_o=√((G×((m_s^2 ))/((d × (m_s+ m_o)) ))) , R (R=(m_s× d )/((m_o+ m_s ) )),.
+15. When the condition becomes false, the Binary2 is exited. At the final point, where F1 = 1, calculate v_x (v_x= √((G×((m_o^2))/((d × 2 ×m_o ) )) )), r_x (r_x=d/2)
+16. Introduce the third system - Binary2, where the new value of step is: step =(m_o-tmp_ms))/100
+17. While r^3> (3×m_s/((4×π×p) ))and F1 < 50 – proposed condition – record changes of dependent variables: r (r = m_o×d/((m_o+ m_s ) )), d (d = ∣-0.5*G×m_s×m_o/E_t ∣ ), v_s (v_s= √((G×((m_o^2 ))/((d × (m_s+ m_o )) )) ) ), F1, vo ( v_o=√((G×((m_s^2 ))/((d × (m_s+ m_o )) )) ), R (R=(m_s× d )/((m_o+ m_s ) )), while making every step
 18. If the proposed condition appeared to be false, the forth system has to be introduced – Binary3. Step is equal to m_s×l. The specific parameter l and its value are denoted:
-	*Value of l for the system “Phobos and Mars” is 1020
-	*Value of l for the system “Tethys and Saturn” is 1016
-	*Value of l for the system “Moon and Earth” is 109
-	*Value of l for other systems is 1020
-19. While r^3> (3*m_s/((4*π*p) ))and F1 ≥ 50 – proposed condition – record changes of dependent variables:          r (r = m_o*d/((m_o+ m_s ) )), d (d = ∣-0.5*G*m_s*m_o/E_t ∣ ), vs (v_s= √((G*((m_o^2 ))/((d * (m_s+ m_o )) )) ) ), F1 vo ( v_o=√((G*((m_s^2 ))/((d * (m_s+ m_o )) )) ), R (R=(m_s* d )/((m_o+ m_s ) )), while making every step
+	*Value of l for the system “Phobos and Mars” is 10^20
+	*Value of l for the system “Tethys and Saturn” is 10^16
+	*Value of l for the system “Moon and Earth” is 10
+	*Value of l for other systems is 10^9
+19. While r^3> (3×m_s/((4×π×p) ))and F1 ≥ 50 – proposed condition – record changes of dependent variables: r (r = m_o×d/((m_o+ m_s ) )), d (d = ∣-0.5×G×m_s×m_o/E_t ∣ ), v_ (v_s= √((G×((m_o^2 ))/((d × (m_s+ m_o )) )) ) ), F1 vo ( v_o=√((G×((m_s^2 ))/((d × (m_s+ m_o )) )) ), R (R=(m_s× d )/((m_o+ m_s ) )), while making every step
 20. When the proposed condition appears to be false, last situation starts working – Final. Last value of F1 in the previous situation is used to determine the maximum value for F1 in Final: F1 * 200*l
-21. While r > ∛((3*m_s/((4*π*p) )) ) and  F1 <a – proposed condition – keep calculating R ( R=((2*G*m_s*m_o)/(m_o*v_o 2 – 2*E_t )), vo  (v_o= √(G*m_s/r)), F1, r  (r =((m_o*r))/((m_o+m_s ) ))
-22. If r  <  ∛(3*m_s/((4*π*p) )  ), then F2 = msmax/mo, msmax = ms (value of ms, when the previous condition became true). Program is stopped because the collision occurred
+21. While r > ∛((3×m_s/((4×π×p) )) ) and  F1 <a – proposed condition – keep calculating R ( R=((2×G×m_s×m_o)/(m_o×v_o 2 – 2×E_t )), v_o  (v_o= √(G×m_s/r)), F1, r (r =((m_o×r))/((m_o+m_s ) ))
+22. If r  <  ∛(3×m_s/((4×π×p) )  ), then F2 = m_smax/m_s, m_smax = m_s (value of m_s, when the previous condition became true). Program is stopped because the collision occurred
 23. Repeat the experiment for different systems (Moon and Earth, Phobos and Mars, Callisto and Jupiter, Europa and Jupiter, Tethys and Saturn,  Titan and Saturn, Oberon and Uranus, Ariel and Uranus, Triton and Neptune, Charon and Pluto)
-24. Plot the graph, where on y-axis is F1/F0, while on axes is r/ro, for all observed systems: Relationship of Alterations
+24. Plot the graph, where on y-axis is F1/F0, while on axes is r/r_o, for all observed systems: Relationship of Alterations
 25. Plot the graph, where on y-axis is F1, while on axes is r, for all observed systems: Distance from S to the mass center
 26. Plot the graph, where on y-axis is F1, while on axes is distance between planets, for all observed systems: Distance between planets
-27. Plot the graph, where on y-axis is F1, while on axes is vs, for all observed systems: Orbital velocity of the S
-28. Plot the graph, where on y-axis is F1, while on axes is vo, for all observed systems: Orbital velocity of O
+27. Plot the graph, where on y-axis is F1, while on axes is v_s, for all observed systems: Orbital velocity of the S
+28. Plot the graph, where on y-axis is F1, while on axes is v_o, for all observed systems: Orbital velocity of O
 29. Plot the graph, where on y-axis is F1, while on axes is R, for all observed systems: Distance from O to the mass center
 
 Hypothesis
