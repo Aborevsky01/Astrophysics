@@ -1,0 +1,71 @@
+First loop for Moon_and_Earth, iterations: 22
+F2 exists and is equal to 0.9626653768844224
+F2 exists and is equal to 0.9824191457286436
+F2 exists and is equal to 1.0021729145728646
+Second loop for Moon_and_Earth, iterations: 72
+Third loop for Moon_and_Earth, iterations: 122
+ThirdB loop for Moon_and_Earth, iterations: 266
+Fourth loop for Moon_and_Earth, iterations: 316
+First loop for Jupiter_and_Callisto, iterations: 15
+F2 exists and is equal to 1.0014999149799804
+Second loop for Jupiter_and_Callisto, iterations: 65
+Third loop for Jupiter_and_Callisto, iterations: 115
+ThirdB loop for Jupiter_and_Callisto, iterations: 3044
+Fourth loop for Jupiter_and_Callisto, iterations: 3094
+First loop for Jupiter_and_Europa, iterations: 17
+F2 exists and is equal to 1.0016999570208625
+Second loop for Jupiter_and_Europa, iterations: 67
+Third loop for Jupiter_and_Europa, iterations: 116
+ThirdB loop for Jupiter_and_Europa, iterations: 2604
+Fourth loop for Jupiter_and_Europa, iterations: 2654
+First loop for Saturn_and_Titan, iterations: 32
+F2 exists and is equal to 1.0031992425942227
+Second loop for Saturn_and_Titan, iterations: 82
+Third loop for Saturn_and_Titan, iterations: 132
+ThirdB loop for Saturn_and_Titan, iterations: 170
+Fourth loop for Saturn_and_Titan, iterations: 220
+First loop for Saturn_and_Tethys, iterations: 9
+F2 exists and is equal to 1.0008999990223097
+Second loop for Saturn_and_Tethys, iterations: 59
+Third loop for Saturn_and_Tethys, iterations: 108
+ThirdB loop for Saturn_and_Tethys, iterations: 3012
+Fourth loop for Saturn_and_Tethys, iterations: 3062
+First loop for Uranus_and_Oberon, iterations: 13
+F2 exists and is equal to 1.001299954864647
+Second loop for Uranus_and_Oberon, iterations: 63
+Third loop for Uranus_and_Oberon, iterations: 113
+ThirdB loop for Uranus_and_Oberon, iterations: 7434
+Fourth loop for Uranus_and_Oberon, iterations: 7484
+First loop for Uranus_and_Ariel, iterations: 15
+F2 exists and is equal to 1.0014999766213564
+Second loop for Uranus_and_Ariel, iterations: 65
+Third loop for Uranus_and_Ariel, iterations: 114
+ThirdB loop for Uranus_and_Ariel, iterations: 2953
+Fourth loop for Uranus_and_Ariel, iterations: 3003
+First loop for Neptune_and_Triton, iterations: 37
+F2 exists and is equal to 1.0036992268559652
+Second loop for Neptune_and_Triton, iterations: 87
+Third loop for Neptune_and_Triton, iterations: 137
+ThirdB loop for Neptune_and_Triton, iterations: 146
+Fourth loop for Neptune_and_Triton, iterations: 196
+First loop for Pluto_and_Charon, iterations: 0
+F2 exists and is equal to 0.8419094397544135
+F2 exists and is equal to 0.8594750575594787
+F2 exists and is equal to 0.8770406753645439
+F2 exists and is equal to 0.8946062931696092
+F2 exists and is equal to 0.9121719109746744
+F2 exists and is equal to 0.9297375287797397
+F2 exists and is equal to 0.947303146584805
+F2 exists and is equal to 0.9648687643898702
+F2 exists and is equal to 0.9824343821949354
+F2 exists and is equal to 1.0000000000000007
+Second loop for Pluto_and_Charon, iterations: 50
+Third loop for Pluto_and_Charon, iterations: 106
+ThirdB loop for Pluto_and_Charon, iterations: 107
+Fourth loop for Pluto_and_Charon, iterations: 157
+First loop for Mars_and_Phobos, iterations: 9
+F2 exists and is equal to 1.000899999984567
+Second loop for Mars_and_Phobos, iterations: 59
+Third loop for Mars_and_Phobos, iterations: 108
+ThirdB loop for Mars_and_Phobos, iterations: 109
+Fourth loop for Mars_and_Phobos, iterations: 159
